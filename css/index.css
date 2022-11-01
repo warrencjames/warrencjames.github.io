@@ -1,0 +1,11 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.title{
+    background-image: url("../images/coffee.jpg");
+    color: white;
+    width: 500px;
+    padding: 20px;
+    position: relative;
+}
