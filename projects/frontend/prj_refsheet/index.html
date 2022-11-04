@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <title>Reference Sheet</title>
+</head>
+
+<body>
+<!--HTML topic: Media Tags-->
+<h1 class="title">HTML Media Tags</h1>
+<p>The following tags are used to embed various media into a web page. Note that <span class="reqatt">required attributes</span> are listed in <span class="reqatt">bold</span>.</p>
+<table>
+    <tr>
+        <th scope="col">Tag</th>
+        <th scope="col">Attributes</th>
+        <th scope="col">Description</th>
+    </tr>
+    <tr>
+        <th scope="row">&lt;img&gt;</th>
+        <td class="attributes"><span class="reqatt">src</span>, alt, width, height</td> 
+        <td>Embeds an image into the document. Supports APNG, AVIF, GIF, JPEG, pNGSVG, and WebP. Self-closing tag. The "alt" attribute should be used to provide a text description for accessibility.</td>
+    </tr>
+    <tr>
+        <th scope="row">&lt;video&gt;</th>
+        <td class="attributes">src, height, width, autoplay, muted, loop, controls, preload</td>
+        <td>Embeds a video into the document. "controls" attribute is required to enable simple controls. "src" attribute is optional for this tag, as the &lt;source&gt; tag with "src" and "type" attributes may be used within the block . Opening and closing tags are required. Text inside the video tags will appear if the video tag is not supported. </td>
+    </tr>
+    <tr>
+        <th scope="row">&lt;audio&gt;</th>
+        <td class="attributes">src, autoplay, muted, loop, controls, preload</td>
+        <td>Embeds audio into the document. "controls attribute is required to enable simple controls. "src" attribute is optional for this tag, as the &lt;source&gt; tag with "src" and "type" attributes may be used within the block . Opening and closing tags are required. Text inside the audio tags will appear if the audio tag is not supported </td></td>
+    </tr>
+    <tr>
+        <th scope="row">&lt;picture&gt;</th>
+        <td class="attributes">(only global attributes)</td>
+        <td>Embeds an image into the document with more flexibility in specifying image sources. The &lt;source&gt; tag may specify a list of image sources with the "srcset" attribute. The "media" attribute specifies a condition that will determine whether the browser will use it. An &lt;img&gt; tag should be used to provide a fallback in case the offered sources do not provide an image. It also describes the size and attributes of the image. </td>
+    </tr>
+    <tr>
+        <th scope="row" id="source">&lt;source&gt;</th>
+        <td class="attributes"><span class="reqatt">src</span>, type. (Picture only: <span class='reqatt'>srcset</span>, media, height, width)</td>
+        <td>Used within &lt;audio&gt;, &lt;video&gt;, and &lt;picture&gt; tags to specify the media's address and type.</td>
+    </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+* {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1.title {
+    padding: 15px;
+    border: 3px solid black;
+    background-color: rgb(71, 83, 248);
+    color: white;
+    width: 48%;
+    margin: auto auto;
+    text-transform: uppercase;
+}
+
+/* Table Styles */
+td, th {
+    border: 1px solid rgb(50, 50, 50);
+    padding: 10px;
+}
+
+th[scope='row'] {
+    background-color: rgb(167, 212, 255);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+th[scope='col'] {
+    background-color: rgb(71, 83, 248);
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(235, 235, 235);
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: separate;
+    margin: auto auto;
+    background-color: black;
+    width: 50%;
+}
+
+/* Classes */
+.reqatt {
+    font-weight: 700;
+}
+
+.attributes {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#source {
+    background-color: rgb(255, 136, 128);
+}
