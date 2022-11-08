@@ -9,10 +9,11 @@ html {
 h1.title{
     background-image: url("../images/coffee.jpg");
     color: white;
-    width: 40%;
     padding: 30px;
-    position: relative;
     font-size: 3em;
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
 button {
@@ -37,4 +38,17 @@ button:hover {
 button:active {
     box-shadow: 3px 3px rgb(20, 20, 20);
     transform: translate(2px, 2px);
+}
+
+.center {
+    margin: auto auto;
+    text-align: center;
+}
+
+.projects {
+    border: 2px solid black;
+    display: block;
+    padding-left: 15px;
+    border-radius: 15px;
+    width: 30%;
 }
