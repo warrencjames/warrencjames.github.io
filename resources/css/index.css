@@ -4,6 +4,7 @@
 }
 html {
     font-family: Roboto, sans-serif;
+    text-align: center;
 }
 
 h1.title{
@@ -12,8 +13,9 @@ h1.title{
     padding: 30px;
     font-size: 3em;
     margin: auto;
-    width: 50%;
+    width: 25%;
     text-align: center;
+    border-radius: 10px;
 }
 
 button {
@@ -47,8 +49,8 @@ button:active {
 
 .projects {
     border: 2px solid black;
-    display: block;
-    padding-left: 15px;
+    display: inline-block;
+    padding: 10px 30px;
     border-radius: 15px;
-    width: 30%;
+    text-align: left;
 }
