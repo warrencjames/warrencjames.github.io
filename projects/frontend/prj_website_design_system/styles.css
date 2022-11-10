@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Arimo;
+    src: url("fonts/Arimo/Arimo-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Playfair Display";
+    src: url("fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    border: 2px solid #999999;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 400px;
+    margin-right: 20px;
+    border: 0;
+}
+
+.font-title {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#night-grey {
+    background-color: rgb(4, 4, 19);
+    color: white;
+}
+
+#scarlet {
+    background-color: rgb(128, 0, 0);
+    color: white;
+}
+
+#gold-leaf {
+    background-color: rgb(156, 156, 16);
+    color: black;
+}
+
+#deep-blue {
+    background-color: rgb(5, 32, 150);
+    color: white;
+}
+
+#arimo {
+    font-family: Arimo;
+}
+
+#playfair-display {
+    font-family: "Playfair Display";
+}
