@@ -6,6 +6,12 @@
     font-family: "Playfair Display";
     src: url("fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
 }
+@font-face {
+    font-family: Lato;
+    src: url("fonts/Lato/Lato-Regular.ttf");
+    src: url("fonts/Lato/Lato-Bold.ttf");
+    src: url("fonts/lato/lato-italic.ttf");
+}
 
 
 
@@ -24,12 +30,8 @@ div {
     margin-right: auto;
 }
 
-a {
-    color: rgb(5, 32, 150);
-}
-
-a:visited {
-    color: rgb(128, 0, 0);
+a, a:visited {
+    color: hsla(171, 50%, 25%, 1);
 }
 
 .title {
@@ -41,7 +43,7 @@ a:visited {
 
 .color-panel {
     display: inline-block;
-    width: 300px;
+    width: 400px;
     text-align: center;
     margin-right: 20px;
 }
@@ -51,11 +53,12 @@ a:visited {
     width: 400px;
     margin-right: 20px;
     border: 0;
+    font-size: 24px;
 }
 
 .style-panel {
     display: inline-block;
-    width: 300px;
+    width: 400px;
     margin-right: 20px;
     border: 0;
 }
@@ -63,7 +66,7 @@ a:visited {
 .font-title {
     text-transform: uppercase;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .italic {
@@ -74,49 +77,53 @@ a:visited {
     font-weight: 700;
 }
 
-#night-grey {
-    background-color: rgb(4, 4, 19);
-    color: white;
-}
-
-#scarlet {
-    background-color: rgb(128, 0, 0);
-    color: white;
-}
-
-#gold-leaf {
-    background-color: rgb(156, 156, 16);
+#teal {
+    background-color: hsla(171, 100%, 30%, 1);
     color: black;
 }
 
-#deep-blue {
-    background-color: rgb(5, 32, 150);
+#soft-teal {
+    background-color: hsla(171, 70%, 75%, 1);
+    color: black;
+}
+
+#bold-teal {
+    background-color: hsla(171, 50%, 25%, 1);
     color: white;
 }
 
-#arimo {
+#eggshell {
+    background-color: hsla(171, 30%, 85%, 1);
+    color: black;
+}
+
+#font1 {
     font-family: Arimo;
 }
 
-#playfair-display {
+#font2 {
     font-family: "Playfair Display";
+}
+
+#font3 {
+    font-family: Lato;
 }
 
 #head1 p {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 40px;
     font-family: Arimo;
 }
 
 #head2 p {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 32px;
     font-family: Arimo;
 }
 
 #para p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     font-family: "Playfair Display";
 }
 
@@ -125,25 +132,26 @@ a:visited {
 }
 
 .sample {
-    background-color: rgb(4, 4, 19);
-    color: rgb(156, 156, 16);
+    background-color: hsla(171, 30%, 85%, 1);
+    color: black;
 }
 
 .sample h1 {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 40px;
     font-family: Arimo;
+    color: hsla(171, 100%, 30%, 1);
 }
 
 .sample h2 {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 32px;
     font-family: Arimo;
 }
 
 .sample p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     font-family: "Playfair Display";
 }
 
