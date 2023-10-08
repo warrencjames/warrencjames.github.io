@@ -16,7 +16,7 @@
 html {
     font-family: Arimo, sans-serif;
     text-align: center;
-    background-color: hsla(171, 30%, 85%, 1);
+    background-color: rgb(255, 255, 255);
     color: hsla(171, 20%, 10%, 1);
 }
 
@@ -50,13 +50,14 @@ ul {
 /* Nav Styles */
 nav {
     background-color: hsla(171, 70%, 75%, 1);
+    color: rgb(17, 29, 28);
     position: fixed;
     top: 0;
-    width: 80%;
-    height: 80px;
+    width: 40%;
+    height: 60px;
     border: 2px solid hsla(171, 30%, 25%, 1);
     top: 0;
-    left: 10%;
+    left: 30%;
 }
 
 p {
@@ -66,11 +67,10 @@ p {
 
 .banner li {
     display: inline;
-    margin: 20px;
+    margin: 8px;
     text-transform: uppercase;
-    color: hsla(171, 30%, 25%, 1);
     padding: 5px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
 }
